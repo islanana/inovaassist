@@ -1,0 +1,152 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Changed font to Poppins */
+}
+
+/* Body & Main Sections */
+body {
+    background: linear-gradient(to right, #000000, #6A0DAD, #FF4500); /* Updated gradient */
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #000000, #6A0DAD, #FF4500); /* Updated gradient */
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif; /* Bold creative font for title */
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif; /* Keep the body text in Poppins */
+}
+
+.hero .btn {
+    background-color: #FF4500;
+    color: #fff;
+    padding: 14px 35px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #FF6347;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.7rem;
+    margin-bottom: 30px;
+    font-family: 'Merriweather', serif; /* Serif font for headings */
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+}
+
+.service-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.service-box h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif; /* Consistent body font */
+}
+
+.service-box p {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.service-box:hover {
+    transform: translateY(-15px);
+}
+
+/* Sign-up Section */
+.signup {
+    background-color: #000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.signup h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+}
+
+.signup p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup input {
+    padding: 15px 20px;
+    width: 300px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+}
+
+.signup .btn {
+    background-color: #6A0DAD;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.signup .btn:hover {
+    background-color: #8A2BE2;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer p {
+    font-size: 1rem;
+}
